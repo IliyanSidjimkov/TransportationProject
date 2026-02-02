@@ -39,7 +39,7 @@ Transport Management System е Java конзолно приложение за �
 ---
 
 ## 🔗 Релации
-- Company ↔ Employee — **Many-to-Many**
+- Company ↔ Employee — Many-to-Many
 - Company ↔ Client — One-to-Many
 - Company ↔ Vehicle — One-to-Many
 - Company ↔ Shipment — One-to-Many
