@@ -93,7 +93,6 @@ Transport Management System е Java конзолно приложение за �
 
 ## ▶️ Стартиране на проекта
 
-### 1️⃣ Конфигурация на базата
 В `hibernate.properties`:
 
 ```properties
