@@ -19,12 +19,11 @@ Transport Management System е Java конзолно приложение за �
 ## 🧱 Архитектура
 Проектът е структуриран по слоеве:
 
-org.example
-├── entity // JPA Entity класове
-├── dao // Data Access Objects (CRUD, заявки)
-├── service // Бизнес логика и работа с файлове
-├── configurate // Hibernate конфигурация
-└── MainDemo // Демонстрация на всички функционалности
+- **org.example**
+  - **entity** – JPA Entity класове
+  - **dao** – Data Access Objects (CRUD операции и заявки)
+  - **service** – Бизнес логика и работа с файлове
+  - **configurate** – Hibernate конфигурация
 
 
 ---
