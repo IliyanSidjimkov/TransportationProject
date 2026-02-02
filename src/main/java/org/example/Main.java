@@ -16,9 +16,7 @@ public class Main {
 
 
 
-    CompanyDao companyDao = new CompanyDao();
-    Company company = companyDao.findById(3L);
-    System.out.println(company);
+
 
 
 
