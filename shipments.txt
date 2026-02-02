@@ -1,0 +1,3 @@
+ID;DESTINATION;CARGO;PRICE;PAYMENT_STATUS
+1;София – Варна;Мебели;1500.0;PAID
+2;Пловдив – Бургас;Електроника;2300.0;PAID
