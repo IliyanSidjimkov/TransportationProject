@@ -15,7 +15,7 @@ public class ShipmentFileService {
   public static void writeToFile(List<Shipment> shipments) {
     try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME))) {
 
-      writer.write("ID;DESTINATION;CARGO;PRICE;PAYMENT_STATUS");
+      writer.write("Id;Destination;Cargo;Price;Payment Status");
       writer.newLine();
 
       for (Shipment s : shipments) {
