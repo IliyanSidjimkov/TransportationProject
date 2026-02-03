@@ -40,7 +40,7 @@ public class ShipmentFileService {
 
     try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
       String line;
-      reader.readLine(); // пропускаме header-а
+      reader.readLine();
 
       while ((line = reader.readLine()) != null) {
         String[] data = line.split(";");

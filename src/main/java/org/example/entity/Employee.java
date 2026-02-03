@@ -30,7 +30,7 @@ public class Employee {
   @Column(name = "position", nullable = false)
   private String position;
 
-  @Column(name = "salary")
+  @Column(name = "salary",  nullable = false)
   private Double salary;
 
   @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})

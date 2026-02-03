@@ -1,5 +1,6 @@
 plugins {
     id("java")
+
 }
 
 group = "org.example"
@@ -23,3 +24,4 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+

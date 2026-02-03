@@ -23,10 +23,10 @@ public class Vehicle {
   private String registrationNumber;
 
   @Column(name = "type", nullable = false)
-  private String type; // камион, бус, автомобил и т.н.
+  private String type;
 
-  @Column(name = "capacity")
-  private Double capacity; // товароносимост
+  @Column(name = "capacity",nullable = false)
+  private Double capacity;
 
   @ManyToOne
   @JoinColumn(name = "company_id", nullable = false)
